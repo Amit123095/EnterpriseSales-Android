@@ -1,15 +1,61 @@
+
+# =====================================
+# Gradle
+# =====================================
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# =====================================
+# Android Studio
+# =====================================
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# =====================================
+# Android Build Files
+# =====================================
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# =====================================
+# Local Configuration
+# =====================================
 local.properties
+
+# =====================================
+# Logs and OS Files
+# =====================================
+*.log
+.DS_Store
+Thumbs.db
+
+# =====================================
+# Security / Signing Files
+# =====================================
+*.jks
+*.keystore
+google-services.json
+
+# =====================================
+# Android Profiling
+# =====================================
+*.hprof
+
+# =====================================
+# IntelliJ / IDE
+# =====================================
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
