@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">EnterpriseSales</string>
+<!--    <string name="app_name">EnterpriseSales</string>-->
+    <string name="app_name">ESales</string>
 </resources>
